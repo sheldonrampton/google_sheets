@@ -16,6 +16,8 @@ Reads all the sheets from a Google Sheets document and exports each sheet to a s
 
 ## AWS S3 API examples
 
+Amazon Simple Storage Service (S3) is storage for the internet. You can use it to store and retrieve any amount of data at any time, from anywhere on the web.
+
 ### s3_test.py
 
 Uploads a local file to an S3 bucket.
@@ -27,6 +29,15 @@ Uploads a local file to an S3 bucket.
 - Deletes the local CSVs.
 
 ... and more to come!
+
+## AWS Lambda examples
+
+Lambda lets you can run code without provisioning or managing servers. You pay only for the compute time that you consume. There's no charge when your code isn’t running.
+
+### lambda
+
+This folder contains a file lambda_function.py which exports a Google sheet to a CSV file and then uploads it to an S3 bucket. All of the other files in the directory are package dependencies. This lambda example is based on
+https://github.com/tbarringer/Google-Sheets-to-Redshift
 
 ## Setup instructions
 
